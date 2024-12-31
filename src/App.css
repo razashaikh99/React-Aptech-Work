@@ -1,0 +1,217 @@
+/* Body style for background */
+body {
+  background-color: #0074f0 !important;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Center the card */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4ea3ff;
+}
+
+/* Card Styling */
+.card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Card Hover effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading in the card */
+.card-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.increment-button {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+  transition: background-color 0.3s ease, transform 0.2s;
+  margin: 10px;
+}
+
+/* Button Hover effect */
+.increment-button:hover {
+  background-color: #0f7514;
+  transform: scale(1.05);
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+/* Body background and general styling */
+body {
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Center the input card in the viewport */
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Input card container styling */
+.input-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Card hover effect */
+.input-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Input field styling */
+.input-field {
+  padding: 12px;
+  width: 100%;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+/* Input field focus effect */
+.input-field:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
+}
+
+/* Text output styling */
+.output-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+
+/* Body background and general styles */
+body {
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Center the card in the viewport */
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4ea3ff;
+  /* display: block; */
+}
+
+/* Card container for the toggle buttons */
+.toggle-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Card hover effect */
+.toggle-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading and status text */
+.status-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.store-status {
+  color: #333;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* Open and Close Button styling */
+.open-button, .close-button {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 45%;
+}
+
+/* Open Store button (Green) */
+.open-button {
+  background-color: #4CAF50;
+}
+
+.open-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Close Store button (Red) */
+.close-button {
+  background-color: #f44336;
+}
+
+.close-button:hover {
+  background-color: #e53935;
+  transform: scale(1.05);
+}
+
